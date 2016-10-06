@@ -1,4 +1,6 @@
 module CGraphQLParserLinux [system] {
+    header "/usr/include/graphqlparser/c/GraphQLAstForEachConcreteType.h"
+    header "/usr/include/graphqlparser/c/GraphQLAst.h"
     header "/usr/include/graphqlparser/c/GraphQLAstNode.h"
     header "/usr/include/graphqlparser/c/GraphQLAstToJSON.h"
     header "/usr/include/graphqlparser/c/GraphQLAstVisitor.h"
@@ -8,6 +10,8 @@ module CGraphQLParserLinux [system] {
 }
 
 module CGraphQLParserMac [system] {
+    header "/usr/local/include/graphqlparser/c/GraphQLAstForEachConcreteType.h"
+    header "/usr/local/include/graphqlparser/c/GraphQLAst.h"
     header "/usr/local/include/graphqlparser/c/GraphQLAstNode.h"
     header "/usr/local/include/graphqlparser/c/GraphQLAstToJSON.h"
     header "/usr/local/include/graphqlparser/c/GraphQLAstVisitor.h"
