@@ -1,5 +1,17 @@
+module CGraphQLParserLinux [system] {
+    header "/usr/include/graphqlparser/c/GraphQLAstNode.h"
+    header "/usr/include/graphqlparser/c/GraphQLAstToJSON.h"
+    header "/usr/include/graphqlparser/c/GraphQLAstVisitor.h"
+    header "/usr/include/graphqlparser/c/GraphQLParser.h"
+    link "graphqlparser"
+    export *
+}
+
 module CGraphQLParserMac [system] {
+    header "/usr/local/include/graphqlparser/c/GraphQLAstNode.h"
+    header "/usr/local/include/graphqlparser/c/GraphQLAstToJSON.h"
+    header "/usr/local/include/graphqlparser/c/GraphQLAstVisitor.h"
     header "/usr/local/include/graphqlparser/c/GraphQLParser.h"
-    link "libgraphqlparser"
+    link "graphqlparser"
     export *
 }
