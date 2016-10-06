@@ -1,0 +1,5 @@
+module CGraphQLParserMac [system] {
+    header "/usr/local/include/graphqlparser/GraphQLParser.h"
+    link "graphqlparser"
+    export *
+}
